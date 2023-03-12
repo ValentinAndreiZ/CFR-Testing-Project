@@ -1,0 +1,6 @@
+// The classes present in the smokeTestSuite_NavBar pkg are responsible for handling the opening of each link present for the
+// domestic journeys dropdown in the header's navigation bar and make sure that any of them opens and directs the user
+// to the correct page. The assertion is made by comparing the title of the page where the driver reached with the
+// expected titles according to the project's localization set in the config.properties file. 
+
+// All of the classes present similar functionality. The main functionality will be presented in the DomesticJourneysOpenTarrifsLinksTest class.

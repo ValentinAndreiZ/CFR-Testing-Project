@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" name="Failed suite [CFR_Smoke_Tests]" guice-stage="DEVELOPMENT">
+  <test name="Smoke_Tests(failed)">
+    <classes>
+      <class name="smokeTestSuite.LoginWithExistingAccountTest">
+        <methods>
+          <include name="setup"/>
+          <include name="testLoginWithExistingAccount"/>
+          <include name="end"/>
+        </methods>
+      </class> <!-- smokeTestSuite.LoginWithExistingAccountTest -->
+    </classes>
+  </test> <!-- Smoke_Tests(failed) -->
+</suite> <!-- Failed suite [CFR_Smoke_Tests] -->
